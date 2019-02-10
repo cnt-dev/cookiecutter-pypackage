@@ -1,20 +1,20 @@
 # Package.
-pip==18.1
+pip==19.0.2
 wheel==0.32.3
 bumpversion==0.5.3
 
 # Doc.
-Sphinx==1.8.2
+Sphinx==1.8.4
 watchdog==0.9.0
 twine==1.12.1
 
 # CI.
-tox==3.5.3
-yapf==0.25.0
+tox==3.7.0
+yapf==0.26.0
 pylint==2.2.2
-mypy==0.650
+mypy==0.670
 {% if cookiecutter.use_pytest == 'y' -%}
-pytest==4.0.1
+pytest==4.2.0
 pytest-runner==4.2{% endif %}
 coverage==4.5.2
 
