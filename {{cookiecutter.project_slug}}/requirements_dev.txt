@@ -1,23 +1,24 @@
 # Package.
-pip==19.0.2
-wheel==0.32.3
+pip==19.1
+wheel==0.33.1
 bumpversion==0.5.3
 
 # Doc.
-Sphinx==1.8.4
+Sphinx==2.0.1
 watchdog==0.9.0
-twine==1.12.1
+twine==1.13.0
 
 # CI.
-tox==3.7.0
-yapf==0.26.0
-pylint==2.2.2
-mypy==0.670
+tox==3.9.0
+yapf==0.27.0
+pylint==2.3.1
+mypy==0.701
 {% if cookiecutter.use_pytest == 'y' -%}
-pytest==4.2.0
-pytest-runner==4.2{% endif %}
-coverage==4.5.2
+pytest==4.4.1
+pytest-runner==4.4
+{% endif %}
+coverage==4.5.3
 
 # Dev.
 invoke==1.2.0
-ipython==7.2.0
+ipython==7.5.0
