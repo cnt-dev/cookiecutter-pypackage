@@ -7,6 +7,7 @@ include LICENSE
 include README.rst
 include requirements_*.txt
 
+recursive-include {{cookiecutter.project_slug}} *
 recursive-include tests *
 recursive-exclude * __pycache__
 recursive-exclude * *.py[co]
